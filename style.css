@@ -1,0 +1,81 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(29, 26, 46);
+}
+
+#main {
+    width: 500px;
+    height: 650px;
+    background-color: gray;
+    border-radius: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#one, #two, #three, #four, 
+#five, #six, #seven, #eight,
+#nine, #zero, #add, #sub, 
+#mul, #div, #clear, #eq,
+#display {
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: rgb(137, 240, 133);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+
+#display {
+    width: 450px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: black;
+    top: 15%;
+    left: 50%;
+    color: white;
+    font-size: 40px;
+    justify-content: left;
+}
+
+#one, #two, #three, #four {
+    top: 40%;
+}
+
+#five, #six, #seven, #eight {
+    top: 55%;
+}
+
+#nine, #zero, #add, #sub {
+    top: 70%;
+}
+
+#mul, #div, #clear, #eq {
+    top: 85%;
+}
+
+#one, #five, #nine, #mul {
+    left: 20%;
+}
+
+#two, #six, #zero, #div {
+    left: 40%;
+}
+
+#three, #seven, #add, #clear {
+    left: 60%;
+}
+
+#four, #eight, #sub, #eq {
+    left: 80%;
+}
